@@ -221,7 +221,8 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]"
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "Gain a free [Pantheon] belief"
         ],
         "policies": [
             {
