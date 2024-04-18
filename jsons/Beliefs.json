@@ -1,0 +1,138 @@
+[
+  //Pantheon
+  {
+        "name": "Earth Mother",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Salt]","[+1 Faith] from every [Copper]","[+1 Faith] from every [Iron]"]
+    },
+	{
+        "name": "God-King",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Production, +1 Happiness, +1 Food] from every [Palace]"]
+    },
+	{
+        "name": "Sun God",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Wheat]"]
+    },
+	{
+        "name": "Tears of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Gems]","[+2 Faith] from every [Pearls]"]
+    },
+  {
+        "name": "Coastal Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Fishing Boats]","[+1 Faith] from every [Atoll]"]
+    },
+    {
+        "name": "God of the Depths",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith, -1 Gold] from every [Ocean]"]
+    },
+    {
+        "name": "Lady of the Reeds and Marshes",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Production] from every [Oasis]","[+1 Faith, +1 Production] from every [Marsh]","[+1 Faith, +1 Production] from every [Flood plains]"]
+    },
+    {
+        "name": "Stories from the Pole",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Snow]"]
+    },
+    //Follower
+    {
+        "name": "Sacred Mountains",
+        "type": "Follower",
+        "uniques": ["[+1 Faith, +1 Food] from every [Mountain]"]
+    },
+    {
+        "name": "Lord of the Lies",
+        "type": "Follower",
+        "uniques": ["[+2 Faith, +1 Happiness, -1 Science] from every [Library]"]
+    },
+	{
+        "name": "Universities and Observatories",
+        "type": "Follower",
+        "uniques": ["May buy [University] buildings with [Faith] [in cities following this religion]", "May buy [Observatory] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Jesuit Education",
+        "type": "Follower",
+        "uniques": ["May buy [Library] buildings with [Faith] for [2] times their normal Production cost","May buy [University] buildings with [Faith] for [2] times their normal Production cost","May buy [Public School] buildings with [Faith] for [2] times their normal Production cost","May buy [Research Lab] buildings with [Faith] for [2] times their normal Production cost"]
+    },
+    {
+        "name": "Liturgical Education",
+        "type": "Follower",
+        "uniques": ["May buy [Amphitheater] buildings with [Faith] for [2] times their normal Production cost","May buy [Opera House] buildings with [Faith] for [2] times their normal Production cost","May buy [Museum] buildings with [Faith] for [2] times their normal Production cost","May buy [Broadcast Tower] buildings with [Faith] for [2] times their normal Production cost"]
+    },
+    {
+        "name": "Creativity",
+        "type": "Follower",
+        "uniques": ["[+1]% [Culture] from every follower, up to [6]%","[+1 Faith]"]
+    },
+        {
+        "name": "Thrift",
+        "type": "Follower",
+        "uniques": ["[+1]% [Gold] from every follower, up to [15]%"]
+    },
+        {
+        "name": "Intelligence",
+        "type": "Follower",
+        "uniques": ["[+1]% [Science] from every follower, up to [10]%"]
+    },
+        {
+        "name": "Holy Fleets",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+    },
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+    {
+        "name": "Faithful Followers",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every specialist [in all cities]"]
+    },
+    {
+        "name": "Cross-Cultural Dialogue",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [8] times the amount of followers of other religions as [Culture]"]
+    },
+    {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [4] global followers [in foreign cities]"]
+    },
+    {
+        "name": "Salary",
+        "type": "Founder",
+        "uniques": ["May buy [Market] buildings with [Faith] [in all cities]", "May buy [Bank] buildings with [Faith] [in all cities]"]
+    },
+        {
+        "name": "World Konesan",
+        "type": "Founder",
+        "uniques": ["[+1 Science] from every [5] global followers [in foreign cities]"]
+    },
+    
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+        
+    {
+        "name": "Scholars",
+        "type": "Enhancer",
+        "uniques": ["[+1 Science, +1 Culture, +2 Faith] from every [Great Improvement]"]
+    },
+    {
+        "name": "Faith Reform",
+        "type": "Enhancer",
+        "uniques": ["[+15]% [Faith] [in all cities]"]
+    },
+    {
+	    "name": "Expansion to the Gods",
+        "type": "Enhancer",
+        "uniques": ["May buy [Worker] units with [Faith] for [2] times their normal Production cost", "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
+    },
+    {
+	    "name": "Religious Education",
+        "type": "Enhancer",
+        "uniques": ["[Missionary] units built [in all cities] can [Spread Religion] [1] extra times","[Great Prophet] units built [in all cities] can [Spread Religion] [1] extra times"]
+    }
+]
