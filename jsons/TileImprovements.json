@@ -1,34 +1,257 @@
- {
+[
+  {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can be built outside your borders","Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["Can be built outside your borders","[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+  // Resource-specific
+    {
+        "name": "Camp",
+        "turnsToBuild": 7,
+        "techRequired": "Trapping",
+        "uniques": ["Can be built outside your borders",
+            "Does not need removal of [Forest]",
+            "Does not need removal of [Jungle]",
+            "[+1 Gold] <after discovering [Economics]>",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "C"
+    },
+    {
+        "name": "Pasture",
+        "turnsToBuild": 8,
+        "techRequired": "Animal Husbandry",
+        "uniques": ["Can be built outside your borders",
+            "[+1 Food] <after discovering [Fertilizer]>",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "P"
+    },
+    {
+        "name": "Plantation",
+        "turnsToBuild": 6,
+        "techRequired": "Calendar",
+        "uniques": ["Can be built outside your borders",
+            "[+1 Food] <after discovering [Fertilizer]>",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "P"
+    },
+    {
+        "name": "Quarry",
+        "turnsToBuild": 8,
+        "techRequired": "Masonry",
+        "uniques": ["Can be built outside your borders",
+            "[+1 Production] <after discovering [Chemistry]>",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ],
+        "shortcutKey": "Q"
+    },
+    {
+        "name": "Fishing Boats",
+        "turnsToBuild": 6,
+        "terrainsCanBeBuiltOn": ["Coast"],
+        "techRequired": "Sailing",
+        "uniques": ["Can be built outside your borders",
+            "[+1 Gold] <after discovering [Compass]>",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
+    },
+	//Civilization unique improvements
+  {
+		"name": "Moai",
+	  	"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders","Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", 
+			    "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Optics",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Philippines",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders",
+			    "Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "Philippines",
+		"food": 3,
+		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"],
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders","[+1 Production, +2 Gold] <after discovering [Economics]>", 
+			    "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Guilds",
+		"shortcutKey": "F"
+	},
+	//Special
+	{
        "name": "Kampung",
-       "uniqueTo": "Majapahit",
-       "terrainsCanBeBuiltOn": ["Coast","Lakes"],
+       "terrainsCanBeBuiltOn": ["Land"],
        "production":1,
        "techRequired":"Optics",
        "turnsToBuild": 7,
-       "uniques": ["Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>","[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Food] for each adjacent [Great Improvement]","[+1 Production] <after discovering [Astronomy]>",
-			"[+1 Culture] <after discovering [Flight]>"]
+       "uniques": ["Can be built outside your borders","[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Food] for each adjacent [Great Improvement]","[+1 Production] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Flight]>","[+2 Food] from [Lakes] tiles [in this city]","[+2 Food] from [River] tiles [in this city]","[-2 Food, -1 Production] from [Desert] tiles [in this city]"]
    },
 	{
 		"name": "Idendo",
-		"uniqueTo": "Leisi",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
 		"turnsToBuild": 6,
-		"uniques": ["[+1 Food] for each adjacent [Camp]","[+1 Production, +1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
-		"techRequired": "Masonry"
+		"uniques": ["Can be built outside your borders","[+1 Food] for each adjacent [Camp]","[+1 Production, +1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
+		"techRequired": "Mathematics"
 	},
 	{
 		"name": "Jolopong",
-		"uniqueTo": "Sunda Empire",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"techRequired": "Engineering",
+		"terrainsCanBeBuiltOn": ["Land","Coast","Lakes"],
 		"uniques": [
 "[+2 Gold] <after discovering [Economics]>",
 "[+1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
-"Cannot be built on [Coast] tiles <with [0] to [2] neighboring [Land] tiles>"
-]
+"Can be built outside your borders"]
 	},
-]
+	{
+		"name": "Seaside Stall",
+		"uniqueTo": "China",
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 8,
+		"techRequired": "Currency",
+		"uniques": ["Can be built outside your borders","Can only be built on [Coastal] tiles","[+1 Food] for each adjacent [Fishing Boats]","[+1 Production] <after discovering [Navigation]>"]
+	},
+		{
+		"name": "Colossal Head",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
+		"science": 1,
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": ["Can be built outside your borders","[+1 Culture] <after discovering [Archaeology]>","[+1 Science] for each adjacent [Great Improvement]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"]
+	},
+		{
+		"name": "Desert Plantation",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"gold": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Mathematics",
+		"uniques": ["Can be built outside your borders","Cannot be built on [Luxury resource] tiles","Provides [1] [Incense]","[+1 Gold] <after discovering [Economics]>","Cannot be built on [Flood plains] tiles"]
+	},
+			{
+		"name": "Kurgan",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"culture": 2,
+		"faith": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["Can be built outside your borders","[+1 Culture] <after discovering [Archaeology]>","Pillaging this improvement yields approximately [+50 Gold]"]
+	},
+	{
+		"name": "Holy Place",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 8,
+		"happiness": 1,
+		"faith": 1,
+		"techRequired": "Pottery",
+		"uniques": ["Can be built outside your borders","Gives a defensive bonus of [50]%"]
+	},
+	{
+		"name": "Sacred altar",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 1,
+		"uniques": ["Can be built outside your borders","Tile provides yield without assigned population"]
+	},
+	{
+		"name": "Chateau",
+		"uniqueTo": "England",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild":7,
+		"techRequired": "Chivalry",
+		"uniques": ["Can be built outside your borders","Can only be built on [Land] tiles <with [1] to [3] neighboring [Luxury resource] tiles>","Cannot be built on [Land] tiles <with [1] to [3] neighboring [Chateau] tiles>","Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>"]
+	},
+	{
+		"name": "Brazilwood Camp",
+		"uniqueTo": "America",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques": ["Can be built outside your borders","[+2 Culture] <after discovering [Acoustics]>"]
+	},
+		{
+		"name": "Feitoria",
+		"uniqueTo": "Spain",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"happiness": 1,
+		"techRequired": "Navigation",
+		"uniques": ["Can be built outside your borders","Gives a defensive bonus of [50]%","Must be next to [City center]","Can only be built on [Coastal] tiles"]
+	},
+	{
+		"name": "Kasbah",
+		"uniqueTo": "Morocco",
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": ["Can be built outside your borders","Gives a defensive bonus of [50]%"]
+	}
+  ]
