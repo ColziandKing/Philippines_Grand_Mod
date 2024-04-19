@@ -1,0 +1,20 @@
+[
+    {
+        "name": "IRRI",
+        "science": 3,
+        "percentStatBonus": {"science": 25, "food": 10},
+        "specialistSlots": {"Scientist": 3},
+        "replaces": "University",
+        "uniqueTo": "Philippines",
+        "maintenance": 3,
+        "hurryCostModifier": 25,
+        "uniques": ["[+2 Science] from [Farm] tiles [in this city]"],
+        "requiredTech": "Education"
+    }
+
+
+
+
+
+  
+]
