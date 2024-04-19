@@ -10,7 +10,28 @@
         "hurryCostModifier": 25,
         "uniques": ["[+2 Science] from [Farm] tiles [in this city]"],
         "requiredTech": "Education"
-    }
+    },
+    {
+	    "name": "Coral Church",
+	    "uniqueTo": "Philippines",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]","[+2 Faith] from [Water resource] tiles [in this city]","[+5]% growth [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+    {
+        "name": "Floating Structures",
+        "uniqueTo": "Philippines",
+        "production": 2,
+        "percentStatBonus": {"production": 25},
+        "culture": 2,
+        "specialistSlots": {"Engineer": 2},
+        "hurryCostModifier": 25,
+        "requiredTech": "Engineering"
+    },
 
 
 
