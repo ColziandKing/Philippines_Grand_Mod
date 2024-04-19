@@ -1,0 +1,34 @@
+ {
+       "name": "Kampung",
+       "uniqueTo": "Majapahit",
+       "terrainsCanBeBuiltOn": ["Coast","Lakes"],
+       "production":1,
+       "techRequired":"Optics",
+       "turnsToBuild": 7,
+       "uniques": ["Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>","[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Food] for each adjacent [Great Improvement]","[+1 Production] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Flight]>"]
+   },
+	{
+		"name": "Idendo",
+		"uniqueTo": "Leisi",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"food": 1,
+		"turnsToBuild": 6,
+		"uniques": ["[+1 Food] for each adjacent [Camp]","[+1 Production, +1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
+		"techRequired": "Masonry"
+	},
+	{
+		"name": "Jolopong",
+		"uniqueTo": "Sunda Empire",
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"uniques": [
+"[+2 Gold] <after discovering [Economics]>",
+"[+1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
+"Cannot be built on [Coast] tiles <with [0] to [2] neighboring [Land] tiles>"
+]
+	},
+]
