@@ -1,0 +1,165 @@
+[
+  // The Philippines
+		
+		// Cebu  (Sugbu)
+		{
+			"name": "Sugbu",							// 1400 - 1565
+			"leaderName": "Humabon",
+			"adjective": ["Cebuano"],
+			"startBias": ["Coast"],
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": " ",
+			"startIntroPart2": " ",
+
+			"declaringWar": "I have come across few as weak as you. Your name will be forgotten!",
+			"attacked": "I believe our peoples can work together. But alas, you resort to physical violence over words.",
+			"defeated": "Who will there be left to trade with when you've conquered the world?",
+			"introduction": "Welcome to the sinibuayang hingpit. We have traded with many great lands, but none as distant as yours.",
+
+			"neutralHello": "Bless you.",
+			"hateHello": "Piste ka!", // Such a pest!
+			"tradeRequest": "Do you bring goods to trade? Could I interest you in trading with me?",
+
+			"outerColor": [  0,56,168],
+			"innerColor": [252,209,22],
+			"uniqueName": "Kota Raya Kita",
+			"uniques": ["Comment [Gain 100 [Gold] (modified by game speed) upon adopting Policy opener]", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Tradition]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Liberty]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Honor]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Piety]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Patronage]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Commerce]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Rationalism]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Freedom]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Autocracy]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Order]> <hidden from users>", 
+						"[1] Movement point cost to embark <for [All] units>"],
+			"cities": ["Cebu","Singhapala","Lalan","Bulacao","Mambaling","Duljo","Suba","Tinago","Mandawi","Subangdaku","Tipolo",
+				"Tabok", "Looc","Opao","Umapad","Labusin","Lulutan","Kutkut","Silot","Gabi","Bangbang",
+				"Buagsong","Dapitan","Gilutongan","Ibabao","Babag","Basak","Pajo","Pusok","Bulaya","Ibo","Opong"],
+			"spyNames": ["Lumay","Bantug","Tupas","Solon","Labajo","Baylon","Catacutan","Lapu-Lapu","Cobonpue","Kilat"]
+		},
+		
+		// Sulu
+		{
+			"name": "Sulu",							// 1405 - 1915
+			"leaderName": "Azim Ud-Din I",
+			"adjective": ["Tausug"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": "Stand proud, Azim Ud-Din I, the first of his name, sovereign ruler of the Sultanate of Sulu! Amidst the turquoise waters and coral isles of the Sulu Archipelago, your dynasty carved its name in history. Under your rule, the Sultanate of Sulu emerged as a maritime power, commanding trade routes and fostering cultural exchange in the Sulu Archipelago. Notorious for its so-called 'Moro Raids' or acts of piracy directed toward Spanish settlements, the sultanate managed to thwart Spanish attempts to subjugate the Moro people for centuries.",
+			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
+
+			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
+			"attacked": "I have raided many ships and fought many battles. You shall be the next.",
+			"defeated": "With God's help, may Sulu people one day reclaim its territory.",
+			"introduction": "I am Jamulul Kiram, Sultan of Sulu. It is my great pleasure to finally meet you.",
+
+			"neutralHello": "Good day.",
+			"hateHello": "Oh, it's you.",
+			"tradeRequest": "Better hurry, I may change my mind.",
+
+			"outerColor": [ 52, 14, 32],
+			"innerColor": [225,225,225],
+			"uniqueName": "Moro Raids",
+			"uniques": ["Free [Worker] appears <upon constructing [Courthouse]>", 
+						"Comment [May sell Worker for 35 [Gold] (modified by game speed)]", 
+						"[Worker] units gain the [Slave] promotion <hidden from users>"],
+			"cities": ["Buana","Maimbung","Palawan","Moroland","Sandakan","Kudat","Lahad Datu","Tawau","Semporna",
+				"Tawi-tawi","Jolo","Basilan","Zamboanga","Indanan","Pangutaran","Parang","Patikul","Talipao","Mactan"],
+			"spyNames": ["Hashim","Alauddin","Muiz","Nasiruddin","Bakhtiar","Rashid","Muwallil","Azam","A'lam","Halim"]
+		},
+		
+		// Maguindanao
+		{
+			"name": "Maguindanao",						// 1520–1928
+			"leaderName": "Kudarat",
+			"adjective": ["Maguindanaon"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": ".",
+
+			"declaringWar": "It is not my wish to conquer your realm by force, but we arrive at a point now where there is no alternative.",
+			"attacked": "Here come a bunch of armed men waving around and shouting. Should I let this behaviour be?",
+			"defeated": "The road ahead is dark, the surrounding pines are dense like walls, the sky and earth are full dark.",
+			"introduction": "Welcome, stranger. Do remember, the name is Kudarat. I hope soon we will be close friends.",
+
+			"neutralHello": "Mapia maudtu.",
+			"hateHello": "What now?",
+			"tradeRequest": "May this offer interest you, my friend?",
+
+			"outerColor": [251,236,127],
+			"innerColor": [146, 74,  1],
+			"uniqueName": "Helper of the Faith",
+			"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
+						"Comment [+33% [Production] when constructing Defensive buildings in all cities]", 
+						"[+33]% Production when constructing [Walls] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Castle] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>"],
+			"cities": ["Kuta Watu","Tamontaka","Dinaig","Tumbao","Pollok","Padang-Padang","Talavan","Tinungkul","Buayan",
+				"Kitakubong","Buluan","Tukuran","Inuk","Kalamansig","Pula","Glan","Pinagurusan","Kuruan","Bolong"],
+			"spyNames": ["Sajid","Ampatuan","Datumanong","Mariam","Baraguir","Ameni","Murad","Gumbay","Pendatun","Sinsuat"]
+		},
+  {
+	      "name": "Philippines",
+	      "leaderName": "Jose Rizal",
+	      "startBias": ["Coast"],
+	      "adjective": ["Filipinos"],
+	      "preferredVictoryType": "Cultural",
+	      "favoredReligion": "Catholicism",
+	
+	      "startIntroPart1": "Your people gaze upon you with their hearts, José Rizal, national hero of all the Philippines. For thousands of years, the glimmering islands of this land have played host to one of the largest populations in the world, and has become a veritable melting pot for a great diversity of people; fusing together the cultures of Austronesians, Malay, Chinese, Spanish, British and Americans alike. Your ideals have forever shaped the course of Filipino history, and drives through the veins of your people their will for independence. After your execution at the hands of the Spanish colonists in 1896, your adherents rose up, and declared a new nation in the pacific, founded upon the principles of your life's work, and thus for this you are eternally honoured as the first Filipino.",
+		  "startIntroPart2": "O magnificent Rizal, your people call you to change their world once more. Can you defend this beautiful and tranquil homeland against all manner of foe? Can you forge a place for the Philippine Republic through peace and harmony with the world around you? Can you build a civilization that can stand the test of time?",
+	      "defeated": "The Philippine Republic is no more. What sorrow must fill your heart to bring such destruction upon this beautiful land",
+	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurtures",
+		 "neutralHello": "Mabuhay, the great leader!",
+	     "hateHello": "You are trash that must be exterminated from this beautiful world!!",
+		 "tradeRequest": "Our delegation has brought you trade offers that you may find interesting and Balut that you must try!",
+	     "declaringWar": "Sooner or later, you will only become a problem for us, and because of that we declare war on you!",
+		 "attacked": "So that's how it is, this beautiful country can't be at peace forever.",
+	
+	      "uniqueName": "Pearl of the Orient",
+	      "uniques": ["[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
+	      "outerColor": [57,189,191],
+		  "innerColor": [255,255,255],
+	      "cities": ["Maynilad","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido"]
+	},
+  {
+		"name": "Philippines",
+		"leaderName": "Andres Bonifacio",
+		"adjective": ["Filipino"],
+		"favoredReligion": "Christianity",
+		"startBias": ["Coast"],
+        "preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Greetings, Supremo Andres Bonifacio. Your great intellect and strong understanding of the Filipino plight allowed you to forge numerous successful victories against the Spaniards and the Americans.",
+		"startIntroPart2": "Most courageous and magnanimous Supremo, Philippines once again requires the service of a compassionate and determined leader, one who can reunite the country and establish a strong foundation for the years to come. Can you establish your nation through strong civil institutions, or will you work to conquer your enemies through the use of force? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Your ways have been revealed. Time to fight for what is ours!",
+		"attacked": "This insolence will cost you dearly!",
+		"defeated": "The Filipino people is worth dying for",
+		"introduction": "Welcome to the Philippines. I am Supremo Andres Bonifacio.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Hello! What do you want?",
+		"tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+		"outerColor": [139,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Sovereign Tagalog Nation",
+		"uniques": ["[+1 Production] from every [Farm]"],
+		"cities": ["Manila","Cavite","Bulácan","Santa Cruz","Batangas","Bacolor","Cabanatuan","Tárlac","Vigan","Puerto Princesa","Davao","Aparri","Ilo-ilo","Zamboanga","Albay","Cebú",
+			"Iligan","Balanga","Tacloban","Surigao","Mórong","Bacolód","Tayabas","Tagbilaran","Daet","Catbalogan","Nueva Cáceres","Cápix","Sorsogon","Concepción","Binangonan",
+			"San José de Buenavista","Iba","Dumaguete","Calapan","Dagupan","Baler","Bayombong","La Trinidad","San Fernando","Ilagan","Cagayán","Binorungan","Bangued","Laoag"
+	   		]
+	},
+
+
+
+  
+]
