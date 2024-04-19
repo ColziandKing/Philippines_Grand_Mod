@@ -8,7 +8,7 @@
 	{
         "name": "God-King",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Production, +1 Happiness, +1 Food] from every [Palace]"]
+        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Production, +1 Happiness, +1 Food] from every [Palace]","[+10]% Natural religion spread [in all cities]"]
     },
 	{
         "name": "Sun God",
@@ -23,7 +23,7 @@
   {
         "name": "Coastal Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Fishing Boats]","[+1 Faith] from every [Atoll]"]
+        "uniques": ["[+1 Faith] from every [Fishing Boats]","[+1 Faith] from every [Atoll]","[+10]% Natural religion spread [in all cities]"]
     },
     {
         "name": "God of the Depths",
@@ -38,7 +38,7 @@
 	{
         "name": "Divine Spark",
         "type": "Pantheon",
-        "uniques": ["[+25]% Great Person generation [in cities following this religion]"]
+        "uniques": ["[+25]% Great Person generation [in cities following this religion]","[+10]% Natural religion spread [in all cities]"]
     },
 	{
         "name": "Dance of the Aurora",
