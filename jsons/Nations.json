@@ -158,6 +158,34 @@
 			"San José de Buenavista","Iba","Dumaguete","Calapan","Dagupan","Baler","Bayombong","La Trinidad","San Fernando","Ilagan","Cagayán","Binorungan","Bangued","Laoag"
 	   		]
 	},
+	{
+		"name": "Filipinas",
+		"leaderName": "Felipe I",
+		"adjective": ["Filipino"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Eastern Orthodoxy",
+		
+		"startIntroPart1": "Hail his Most Catholic Majesty Felipe I of the Philippines! Your realm was founded in your name by Miguel Lopez de Legaspi in 1565. As such, the feuding rulers in your Asian realm have been united in your name. It is high time to make your kingdom great, your Most Catholic Majesty!",
+		"startIntroPart2": "Your Most Catholic Majesty, the peoples of the Philippines are asking you to help lead the kingdom to victory against all those who oppose it! Will you uphold the realm and the faith in Asia? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "You threaten my realm? This means war!",
+		"attacked": "Submit and there will be peace. Refuse and you'll be defeated!",
+		"defeated": "The kingdom has fallen. Pray for us all.",
+		"introduction": "Hello. My name is Felipe I, king of the East Indies.",
+		"neutralHello": "Hello!",
+		"hateHello": "What is it?",
+		"tradeRequest": "Let us trade.",
+		"outerColor": [255,255,255],
+		"innerColor": [140,0,26],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "Plus Ultra",
+		"uniques": ["[+1 Production] from every [Stable]","[+2] Movement <for [Embarked] units>", "Units pay only 1 movement point to embark and disembark","[-10]% maintenance costs <for [Land] units>",
+			    "Damage is ignored when determining unit Strength <for [non-air] units>"],
+		"cities": ["Intramuros","Tondo","Parián de Arroceros","Binondo","Butuan","Tagbilaran","Dapitan","San Joaquin","Villa de San Miguel de Cebu","Santa Ana","Cainta","San Carlos",
+			"Laguo","Malate","Cavite","Don Galo","Pandacan","Quiapo","Sampaloc","Visita Santa Ana de Sapa","Dilao","San Juan del Monte",
+			"San Felipe Neri","San Pedro de Macati","Palaos","Santiago de la Ascensión","Agaña","La Villa Rica de Arévalo","Santa Cruz","San Fernando","Bacolor",
+			"Ciudad Fernandina de Vigan","Malolos","Jolo","Lingayen","Batangan","Basco","Ciudad de Zamboanga","Pueblo de Albay","Iba",]
+	},
 	//City-States
 	{
 		"name": "Manila",
