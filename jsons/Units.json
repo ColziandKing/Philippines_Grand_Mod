@@ -25,7 +25,37 @@
 		"uniques": ["Can move after attacking","[+25]% Strength <vs [Ranged Gunpowder] units>","[+25]% Strength <vs [Gunpowder] units>","[+25]% Strength <vs [Archery] units>","[+25]% Strength <vs [Sword] units>"],
 		"attackSound": "horse"
 	},
-	
-
-  
+	{
+		"name": "Maharlika",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Tondo",
+		"movement": 2,
+		"strength": 22,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["+[33]% combat bonus in [Forest]", "+[33]% combat bonus in [Jungle]"],
+		"promotions": ["Woodsman","Amphibious","Besiege"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+			"name": "Maginoo",
+			"unitType": "Sword",
+			"replaces": "Longswordsman",
+			"uniqueTo": "Pilipinas",
+			"movement": 2,
+			"strength": 25,
+			"cost": 130,
+			"requiredTech": "Steel",
+			"upgradesTo": "Musketman",
+			"obsoleteTech": "Gunpowder",
+			"requiredResource": "Iron",
+			"uniques": ["May attack when embarked", 
+						"[+50]% Strength <vs [Mounted] units>"],
+			"promotions": ["Woodsman","Amphibious"],
+			"attackSound": "metalhit"
+		}
 ]
