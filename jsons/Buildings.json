@@ -5,7 +5,7 @@
         "percentStatBonus": {"science": 25, "food": 10},
         "specialistSlots": {"Scientist": 3},
         "replaces": "University",
-        "uniqueTo": "Philippines",
+        "uniqueTo": "Pilipinas",
         "maintenance": 3,
         "hurryCostModifier": 25,
         "uniques": ["[+2 Science] from [Farm] tiles [in this city]"],
@@ -24,7 +24,7 @@
 	},
     {
         "name": "Floating Structures",
-        "uniqueTo": "Philippines",
+        "uniqueTo": "Filipinas",
         "production": 2,
         "percentStatBonus": {"production": 25},
         "culture": 2,
@@ -59,7 +59,7 @@
 	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Philippines",
 		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
@@ -71,7 +71,7 @@
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Tondo",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
