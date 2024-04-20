@@ -99,7 +99,7 @@
 	//Civilization unique improvements
   {
 		"name": "Moai",
-	  	"uniqueTo": "Polynesia",
+	  	"uniqueTo": "America",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
@@ -110,7 +110,7 @@
 	},
 	{
 		"name": "Terrace farm",
-		"uniqueTo": "Philippines",
+		"uniqueTo": "Pilipinas",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -137,6 +137,7 @@
 	//Special
 	{
        "name": "Kampung",
+	"uniqueTo": "Philippines",
        "terrainsCanBeBuiltOn": ["Land"],
        "production":1,
        "techRequired":"Optics",
@@ -146,6 +147,7 @@
    },
 	{
 		"name": "Idendo",
+		"uniqueTo": "Tondo",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
 		"turnsToBuild": 6,
@@ -154,6 +156,7 @@
 	},
 	{
 		"name": "Jolopong",
+		"uniqueTo": "Pilipinas",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
@@ -175,6 +178,7 @@
 	},
 		{
 		"name": "Colossal Head",
+		"uniqueTo": "Filipinas",
 		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
 		"science": 1,
 		"faith": 1,
@@ -184,6 +188,7 @@
 	},
 		{
 		"name": "Desert Plantation",
+		"uniqueTo": "Sulu",
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"gold": 2,
 		"turnsToBuild": 6,
@@ -193,14 +198,16 @@
 			{
 		"name": "Kurgan",
 		"terrainsCanBeBuiltOn": ["Plains"],
+		"uniqueTo": "Maguindanao",
 		"culture": 2,
 		"faith": 1,
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
+		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders","[+1 Culture] <after discovering [Archaeology]>","Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Holy Place",
+		"uniqueTo": "Filipinas",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 8,
 		"happiness": 1,
@@ -210,6 +217,7 @@
 	},
 	{
 		"name": "Sacred altar",
+		"uniqueTo": "Sugbu",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
 		"uniques": ["Can be built outside your borders","Tile provides yield without assigned population"]
@@ -245,7 +253,7 @@
 	},
 	{
 		"name": "Kasbah",
-		"uniqueTo": "Morocco",
+		"uniqueTo": "Sulu",
 		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"food": 1,
 		"production": 1,
