@@ -127,7 +127,7 @@
 		 "attacked": "So that's how it is, this beautiful country can't be at peace forever.",
 	
 	      "uniqueName": "Pearl of the Orient",
-	      "uniques": ["[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
+	      "uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
 	      "outerColor": [57,189,191],
 		  "innerColor": [255,255,255],
 	      "cities": ["Maynila","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido"]
@@ -185,6 +185,42 @@
 			"Laguo","Malate","Cavite","Don Galo","Pandacan","Quiapo","Sampaloc","Visita Santa Ana de Sapa","Dilao","San Juan del Monte",
 			"San Felipe Neri","San Pedro de Macati","Palaos","Santiago de la Ascensión","Agaña","La Villa Rica de Arévalo","Santa Cruz","San Fernando","Bacolor",
 			"Ciudad Fernandina de Vigan","Malolos","Jolo","Lingayen","Batangan","Basco","Ciudad de Zamboanga","Pueblo de Albay","Iba",]
+	},
+	{
+		"name": "Tondo",
+		"leaderName": "Bunao Lakandula",
+		"adjective": ["Tagalog"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "May the blessings of Maycapal be upon you, O great Lakandula! , The realm of Tondo is along the Pasig River alongside the Kingdom of Maynila. Trade along the Pasig River and with other nations was Tondo's lifeblood. The kingdom existed until it was subjugated to Spain in 1589.",
+		"startIntroPart2": "Tondo lives and is ready to take it's place among the great powers of the region. Your people look to you to bring the kingdom to life. Will you accept the challenge? Will you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your people have agitated the spirits for too long!",
+		"attacked": "With the power of Maycapal, I will smite you!",
+		"defeated": "Forefathers, Anitos! Why have you forsakened me!?",
+		"introduction": "Greetings stranger, I bid you welcome from the great Tondo.",
+		
+		"neutralHello": "The Pasig River looks nice today.",
+		"hateHello": "You have upsetted the spirits, why are you here?",
+		
+		"tradeRequest": "I have something that may interest you, foreigner, in exchange for...",
+				
+		"outerColor": [142,21,21],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Maharlika Dominance",
+		"uniques": [
+			"[+1] Movement <for [Embarked] units>", 
+			"[1] Movement point cost to embark <for [Land] units>", 
+			"[1] Movement point cost to disembark <for [Land] units>", 
+			"[-25]% maintenance costs <for [Land] units>", 
+			"[-50]% maintenance costs <for [Water] units>"
+		],
+		"cities": ["Tondo","Bakolod","Bago-Bago","Nagali","Bais","Balanga","Batangas","Naga","Baybayin","Bizlin",
+			"Tanawan","Samboanggan","Tayabas","Tobog","Silayan","Samal","Rawi","Padigusan","Binan","Cabuyao",
+			"Bokood","Espiritu","Indan","Namacpacan","Tivi","Pakil","Lapog","Ibungan","Carig","Atok",
+			"Adan","Kalamba","Saysayan","Burgos","Udyong","Bayag","Bagung Tondo","Payo","Kiangan","Singgalit"]
 	},
 	//City-States
 	{
