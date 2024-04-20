@@ -285,10 +285,21 @@
 		"innerColor": [45, 191, 0],
 		"cities": ["Zamboanga"]
 	},
-	j
 	{
-		"name": "Bogota",
-		"adjective": ["Bogotian"],
+		"name": "Madja-as",
+		"adjective": ["Bisaya"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45, 191, 0],
+		"cities": ["Zamboanga"]
+	},
+	{
+		"name": "Buayan",
+		"adjective": ["Buayans"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -299,7 +310,7 @@
 		"cities": ["Bogota"]
 	},
 	{
-		"name": "Buenos Aires",
+		"name": "r",
 		"adjective": ["Argentinian"],
 		"cityStateType": "Cultured",
 
@@ -310,7 +321,18 @@
 		"innerColor": [219, 37, 232],
 		"cities": ["Buenos Aires"]
 	},
-	l
+	{
+		"name": "r",
+		"adjective": ["Argentinian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [219, 37, 232],
+		"cities": ["Buenos Aires"]
+	},
 	{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
