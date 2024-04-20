@@ -46,9 +46,38 @@
 		"requiredBuilding": "Monument",
 		"requiredTech": "Drama and Poetry"
 	},
-
-
-
-
-  
+{
+		"name": "Dye Market",
+		"uniqueTo": "Tondo",
+		"gold": 3,
+                "requiredNearbyImprovedResources": ["Dyes"],
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Floating Gardens",
+		"replaces": "Water Mill",
+		"uniqueTo": "Aztecs",
+		"food": 2,
+		"production": 1,
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 15},
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "Arabia",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
 ]
