@@ -13,8 +13,19 @@
 		"promotions":["Woodsman","[Katipunero] ability"],
 		"attackSound": "shot"
 	},
-
-
+	{
+		"name": "Principalia",
+		"unitType": "Mounted",
+	        "uniqueTo": "Filipinas",
+		"movement": 5,
+		"strength": 25,
+		"cost": 125,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","[+25]% Strength <vs [Ranged Gunpowder] units>","[+25]% Strength <vs [Gunpowder] units>","[+25]% Strength <vs [Archery] units>","[+25]% Strength <vs [Sword] units>"],
+		"attackSound": "horse"
+	},
+	
 
   
 ]
