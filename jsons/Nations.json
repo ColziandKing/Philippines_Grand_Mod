@@ -100,6 +100,9 @@
 			"innerColor": [146, 74,  1],
 			"uniqueName": "Helper of the Faith",
 			"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
+					"Enables embarkation for land units <starting from the [Ancient era]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>",
 						"Comment [+33% [Production] when constructing Defensive buildings in all cities]", 
 						"[+33]% Production when constructing [Walls] buildings [in all cities] <hidden from users>", 
 						"[+33]% Production when constructing [Castle] buildings [in all cities] <hidden from users>", 
@@ -187,7 +190,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Maharlika Dominance",
-		"uniques": [
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"[+1] Movement <for [Embarked] units>", 
 			"[1] Movement point cost to embark <for [Land] units>", 
 			"[1] Movement point cost to disembark <for [Land] units>", 
