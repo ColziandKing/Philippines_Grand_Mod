@@ -1,6 +1,6 @@
 [
 {
-		"name": "Above",
+		"name": "Pilipinas",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -20,7 +20,7 @@
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Pottery","Astronomy"],
+		"aiFreeTechs": ["Gunpowder","Astronomy"],
 		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Scout","Settler","Settler"],
 		"aiCityStateBonusStartingUnits": ["Era Starting Unit", "Scout","Worker"],
 		"aiUnhappinessModifier": 0.85,
