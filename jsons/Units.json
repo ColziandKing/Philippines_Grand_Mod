@@ -40,22 +40,5 @@
 		"promotions": ["Woodsman","Amphibious","Besiege"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-	},
-	{
-			"name": "Maginoo",
-			"unitType": "Sword",
-			"replaces": "Longswordsman",
-			"uniqueTo": "Pilipinas",
-			"movement": 2,
-			"strength": 25,
-			"cost": 130,
-			"requiredTech": "Steel",
-			"upgradesTo": "Musketman",
-			"obsoleteTech": "Gunpowder",
-			"requiredResource": "Iron",
-			"uniques": ["May attack when embarked", 
-						"[+50]% Strength <vs [Mounted] units>"],
-			"promotions": ["Woodsman","Amphibious"],
-			"attackSound": "metalhit"
-		}
+	}
 ]
