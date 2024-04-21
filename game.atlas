@@ -808,7 +808,7 @@ PolicyIcons/Young Pioneers
   orig: 50, 50
   offset: 0, 0
   index: -1
-ReligionIcons/Christianity
+ReligionIcons/Catholicism
   rotate: false
   xy: 328, 386
   size: 100, 100
@@ -822,7 +822,7 @@ ReligionIcons/Eastern Orthodoxy
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Protestantism
+ReligionIcons/Christianity
   rotate: false
   xy: 976, 278
   size: 100, 100
