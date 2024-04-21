@@ -156,7 +156,7 @@
 	},
 	{
 		"name": "Jolopong",
-		"uniqueTo": "Sugbu",
+		"uniqueTo": "Cebu",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "Sacred altar",
-		"uniqueTo": "Sugbu",
+		"uniqueTo": "Cebu",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
 		"uniques": ["Can be built outside your borders","Tile provides yield without assigned population"]
