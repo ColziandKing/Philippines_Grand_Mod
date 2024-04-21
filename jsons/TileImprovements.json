@@ -110,7 +110,7 @@
 	},
 	{
 		"name": "Terrace farm",
-		"uniqueTo": "Pilipinas",
+		"uniqueTo": "Filipinas",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -156,7 +156,7 @@
 	},
 	{
 		"name": "Jolopong",
-		"uniqueTo": "Pilipinas",
+		"uniqueTo": "Philippines",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
@@ -207,7 +207,7 @@
 	},
 	{
 		"name": "Holy Place",
-		"uniqueTo": "Filipinas",
+		"uniqueTo": "Maguindanao",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 8,
 		"happiness": 1,
