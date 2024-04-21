@@ -25,6 +25,7 @@
 			"innerColor": [252,209,22],
 			"uniqueName": "Kota Raya Kita",
 			"uniques": ["Comment [Gain 100 [Gold] (modified by game speed) upon adopting Policy opener]", 
+				"Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Tradition]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Liberty]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Honor]> <hidden from users>", 
