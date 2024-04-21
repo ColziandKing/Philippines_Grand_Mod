@@ -74,14 +74,14 @@ BuildingIcons/IRRI
   orig: 100, 100
   offset: 0, 0
   index: -1
-LeaderIcons/Andres Bonifacio
+BuildingIcons/Floating Structures
   rotate: false
   xy: 4, 220
   size: 250, 250
   orig: 250, 250
   offset: 0, 0
   index: -1
-NationIcons/Philippines
+ReligionIcons/Philippines
   rotate: false
   xy: 4, 4
   size: 100, 100
