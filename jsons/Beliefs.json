@@ -109,13 +109,13 @@
         "uniques": ["[+1 Science, +1 Culture, +1 Faith, +1 Happiness, -2 Gold] from every [Market] <in cities with at least [4] [Followers of this Religion]>"]
     },
 	{
-        "name": "Starlight Guidance",
+        "name": "Starlight Guidance Fleets",
         "type": "Follower",
         "uniques": ["[+1 Culture, +1 Happiness] from every [Lighthouse]", 
 					"[+1 Science] from every [Observatory] <in cities with at least [5] [Followers of this Religion]>"]
     },
 	{
-        "name": "Uclaidhari, Rugudeia, Airukaya, Ucruzaki, and Claehym Fleets",
+        "name": "Uclaidhari, Rugudeia, Airukaya, Ucruzaki, and Claehym",
         "type": "Follower",
         "uniques": ["[+1 Happiness, -2 Gold] from every [Bank] <in cities with at least [4] [Followers of this Religion]>",
 			"[+1 Science] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"]
