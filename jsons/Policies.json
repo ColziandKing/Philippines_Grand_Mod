@@ -221,8 +221,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "Gain a free [Pantheon] belief"
+            "[+100]% Production when constructing [Temple] buildings [in all cities]"
         ],
         "policies": [
             {
@@ -259,7 +258,7 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-10]% Culture cost of adopting new Policies"],
+                "uniques": ["[-20]% Culture cost of adopting new Policies"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4
@@ -269,6 +268,7 @@
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
                     "[+3 Gold, +3 Culture] from every [Holy site]",
+                    "Gain a free [Pantheon] belief",
                   "May buy [Great Prophet] units for [500] [Gold] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
