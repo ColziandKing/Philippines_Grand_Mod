@@ -51,7 +51,7 @@
 		"aiUnitSupplyModifier": 0.5,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Settler", "Settler", "Settler", "Settler", "Settler", "Settler"],
-		"aiCityStateBonusStartingUnits": ["Settler", "Mechanized Infantry""Mechanized Infantry"],
+		"aiCityStateBonusStartingUnits": ["Scout","Settler", "Mechanized Infantry","Mechanized Infantry"],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 5,
