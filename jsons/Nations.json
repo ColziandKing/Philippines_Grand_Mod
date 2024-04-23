@@ -161,7 +161,7 @@
 	        "favoredReligion": "Christianity",
 		"uniqueName": "Plus Ultra",
 		"uniques": ["[+1 Production] from every [Stable]","[+2] Movement <for [Embarked] units>", "Units pay only 1 movement point to embark and disembark","[-10]% maintenance costs <for [Land] units>",
-			    "Damage is ignored when determining unit Strength <for [non-air] units>",],
+			    "Damage is ignored when determining unit Strength <for [non-air] units>"],
 		"cities": ["Intramuros","Tondo","Parián de Arroceros","Binondo","Butuan","Tagbilaran","Dapitan","San Joaquin","Villa de San Miguel de Cebu","Santa Ana","Cainta","San Carlos",
 			"Laguo","Malate","Cavite","Don Galo","Pandacan","Quiapo","Sampaloc","Visita Santa Ana de Sapa","Dilao","San Juan del Monte",
 			"San Felipe Neri","San Pedro de Macati","Palaos","Santiago de la Ascensión","Agaña","La Villa Rica de Arévalo","Santa Cruz","San Fernando","Bacolor",
