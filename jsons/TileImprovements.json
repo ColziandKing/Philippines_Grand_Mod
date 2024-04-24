@@ -146,7 +146,7 @@
 	{
 		"name": "Idendo",
 		"uniqueTo": "Russia",
-		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"terrainsCanBeBuiltOn": ["Tundra","Snow","Hill"],
 		"food": 1,
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders","[+1 Food] for each adjacent [Camp]","[+1 Production, +1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
