@@ -110,7 +110,6 @@
 	},
 	{
 		"name": "Terrace farm",
-		"uniqueTo": "Filipinas",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -125,7 +124,6 @@
 	},
 	{
 		"name": "Polder",
-		"uniqueTo": "Philippines",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Marsh","Flood plains"],
 		"turnsToBuild": 7,
@@ -147,7 +145,7 @@
    },
 	{
 		"name": "Idendo",
-		"uniqueTo": "Tondo",
+		"uniqueTo": "Russia",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
 		"turnsToBuild": 6,
@@ -207,7 +205,7 @@
 	},
 	{
 		"name": "Holy Place",
-		"uniqueTo": "Maguindanao",
+		"uniqueTo": "Tondo",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 8,
 		"happiness": 1,
