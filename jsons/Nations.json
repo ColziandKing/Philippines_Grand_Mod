@@ -529,7 +529,8 @@
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,204,204],
-		"cities": ["Sydney"]
+		"cities": ["Sydney"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Ur",
