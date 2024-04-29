@@ -383,7 +383,7 @@
 		"gold": 1,
 		"science": 1,
 		"maintenance": 3,
-		"uniques": ["New [Military] units start with [125] Experience [in this city]","Destroyed when the city is captured",
+		"uniques": ["New [Military] units start with [1025] Experience [in this city]","Destroyed when the city is captured",
 			    "All newly-trained [relevant] units [in this city] receive the [Beseige] promotion"],
 		"requiredTech": "Bronze Working"
 	},
