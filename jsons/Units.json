@@ -40,5 +40,42 @@
 		"promotions": ["Woodsman","Amphibious","Besiege"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-	}
+	},
+	{
+		"name": "Turtle Ship",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["May capture killed [Water] units"],
+		"promotions": ["Boarding Party I","Boarding Party II","Landing Party"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Sea Beggar",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics","Accuracy I",
+		"promotions": ["Shock I","Shock II","March"],
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
 ]
