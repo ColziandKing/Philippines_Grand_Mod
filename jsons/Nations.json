@@ -36,7 +36,8 @@
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Freedom]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Autocracy]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Order]> <hidden from users>", 
-						"[1] Movement point cost to embark <for [All] units>"],
+						"[1] Movement point cost to embark <for [All] units>",
+						"Starts with [Advanced Ballistics]"],
 			"cities": ["Cebu","Singhapala","Lalan","Bulacao","Mambaling","Duljo","Suba","Tinago","Mandawi","Subangdaku","Tipolo",
 				"Tabok", "Looc","Opao","Umapad","Labusin","Lulutan","Kutkut","Silot","Gabi","Bangbang",
 				"Buagsong","Dapitan","Gilutongan","Ibabao","Babag","Basak","Pajo","Pusok","Bulaya","Ibo","Opong"],
@@ -132,7 +133,7 @@
 		 "attacked": "So that's how it is, this beautiful country can't be at peace forever. --- This insolence will cost you dearly!",
 	
 	      "uniqueName": "Pearl of the Orient & Sovereign Tagalog Nation",
-	      "uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]","[+1 Production] from every [Farm]","Starts with [Sailing]"],
+	      "uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]","[+1 Production] from every [Farm]","Starts with [Sailing]","Starts with [Mobile Tactics]"],
 	      "outerColor": [57,189,191],
 		  "innerColor": [255,255,255],
 	      "cities": ["Maynila","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido",
