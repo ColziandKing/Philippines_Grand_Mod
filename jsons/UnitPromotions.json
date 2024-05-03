@@ -2,5 +2,9 @@
 {
 		"name": "[Katipunero] ability",
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+25]% Strength <when attacking>"]
+	},
+	{
+		"name": "Altitude Training",
+		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	}
 ]
