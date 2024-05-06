@@ -87,7 +87,7 @@
 		"culture": 100,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 100},
-        "uniques": ["[+100]% [Culture] [in all cities]", "[+100]% [Culture] [in capital]",
+        "uniques": [
             "[+100 Culture] from [All] tiles [in all cities]"],
 		"requiredTech": "Agriculture",
 		"quote": "'Ah culture! May we continue society.'"
@@ -99,7 +99,7 @@
 		"culture": 100,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 100},
-        "uniques": ["[+100]% [Gold] [in all cities]", "[+100]% [Gold] [in capital]",
+        "uniques": [
             "[+100 Gold] from [All] tiles [in all cities]"],
 		"requiredTech": "Agriculture",
 		"quote": "'Ah money! May currency be used well.'"
